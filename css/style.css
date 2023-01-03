@@ -1,0 +1,29 @@
+.grid {
+    display:grid;
+    width: 500px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr;
+    grid-template-areas:    
+    
+            "aside one two"
+            ". three four"
+            ". five six";
+    
+   justify-content: center;
+   border: 5px dotted;
+   align-content: center;
+   align-items: center;
+   padding:50px;
+   gap: 5px 5px; 
+   font-size:30px; 
+   margin-left: 100px;
+
+}
+.btn {
+    transition: box-shadow .3s;
+}
+
+    a:hover {
+        box-shadow: inset 100px 0 0 0 #54b3d6;
+        color: white;
+}
